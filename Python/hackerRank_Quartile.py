@@ -11,7 +11,7 @@ def median(arr):
         median = (arr[int(arrLen / 2) - 1] + arr[int(arrLen / 2)]) // 2
         return median
     else:
-        median = arr[int(len(arr) / 2)]
+        median = arr[int(arrLen / 2)]
         return median
 
 
